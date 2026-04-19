@@ -19,23 +19,23 @@ onUnmounted(() => {
 <template>
   <nav 
     :class="[
-      'fixed w-full z-50 transition-all duration-700 px-6 md:px-12 py-6 flex justify-between items-center',
-      isScrolled ? 'bg-cream/70 backdrop-blur-lg shadow-sm py-4' : 'bg-transparent'
+      'fixed w-full z-50 transition-all duration-500 px-6 py-6 flex justify-between items-center border-b border-transparent',
+      isScrolled ? 'bg-cream/90 backdrop-blur-md shadow-sm py-4 border-secondary/10' : 'bg-transparent'
     ]"
   >
     <div class="flex items-center gap-2">
-      <div class="text-primary font-serif text-3xl font-light italic tracking-tight">
+      <div class="text-primary font-sans text-2xl font-black tracking-widest uppercase">
         Fala-me de Amor
       </div>
     </div>
     
-    <div class="hidden md:flex gap-10 text-[11px] font-bold tracking-[0.3em] uppercase items-center">
-      <a href="#hero" class="text-primary/70 hover:text-secondary transition-colors duration-300">Início</a>
-      <a href="#about" class="text-primary/70 hover:text-secondary transition-colors duration-300">A História</a>
-      <a href="#services" class="text-primary/70 hover:text-secondary transition-colors duration-300">Cerimónias</a>
+    <div class="hidden md:flex gap-8 text-[11px] font-bold tracking-[0.2em] uppercase items-center font-sans">
+      <a href="#hero" class="text-primary/80 hover:text-secondary transition-colors duration-300">Início</a>
+      <a href="#about" class="text-primary/80 hover:text-secondary transition-colors duration-300">A História</a>
+      <a href="#services" class="text-primary/80 hover:text-secondary transition-colors duration-300">Cerimónias</a>
       <a 
         href="#contact" 
-        class="px-5 py-2.5 border border-secondary text-secondary hover:bg-secondary hover:text-white transition-all duration-500 rounded-sm"
+        class="px-6 py-2.5 bg-primary text-white hover:bg-primary-dark transition-all duration-300 rounded-sm shadow-md"
       >
         Contacto
       </a>
