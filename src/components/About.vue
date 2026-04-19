@@ -22,18 +22,24 @@
           </div>
           
           <h2 class="text-4xl md:text-6xl text-primary font-serif italic">
-            Celebrar a Vida através das Palavras
+            Ouvir com o coração, escrever com a alma
           </h2>
           
           <div class="space-y-6 text-gray-700 font-sans leading-relaxed text-lg font-light">
             <p>
-              Acreditamos que cada história de amor é uma obra de arte única, tecida com fios de momentos, olhares e promessas. No <span class="font-medium text-primary">Fala-me de Amor</span>, a nossa missão é transformar essas memórias em palavras que ressoam na alma.
+              <span class="font-bold text-primary">Fala-me de Amor</span> nasce da vontade de contar histórias com verdade e os seus contornos mais especiais. Não acredito em cerimónias iguais, acredito em pessoas únicas, em caminhos que se cruzam e em detalhes que fazem a diferença na história de cada casal.
             </p>
             <p>
-              Não criamos apenas cerimónias; damos voz ao que muitas vezes não se consegue dizer. Mergulhamos no vosso universo para entender os vossos silêncios e os vossos risos, criando um momento que é inteiramente vosso.
+              Por isso, antes de escrever... <span class="font-bold text-primary">eu preciso de ouvir.</span> Ouvir com o coração inteiro para captar o que foi dito e o que possa ficar nas entrelinhas.
             </p>
-            <p class="font-serif italic text-2xl text-secondary pt-4">
-              "Porque cada amor merece ser ouvido."
+            <p>
+              Depois vem a magia: transformar tudo numa narrativa viva, e desenhar uma cerimónia que não precisa de ser apenas bonita, mas que tenha a intensidade que cada história merece.
+            </p>
+            <p>
+              É um dia para tocar cada coração na medida certa, onde <span class="font-bold text-primary">a minha principal missão é que todos sintam que pertencem ao mesmo lugar.</span>
+            </p>
+            <p>
+              Quero dar voz à vossa história, que não deve ser contada com palavras perfeitas, mas revivida de forma especial e que possa ficar <span class="font-bold text-primary">para sempre guardada no baú das vossas memórias mais bonitas.</span>
             </p>
           </div>
 

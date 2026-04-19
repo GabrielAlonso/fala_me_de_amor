@@ -14,6 +14,11 @@ const services = [
     title: 'Elopements',
     description: 'Para casais que procuram a intimidade absoluta, criamos um momento mágico e poético apenas a dois.',
     icon: 'M12 21l-8.228-9.954A5.367 5.367 0 014 7.636a5.367 5.367 0 011.636-3.818 5.367 5.367 0 013.818-1.636c1.472 0 2.841.59 3.841 1.636L12 5.136l1.305-1.318C14.305 2.772 15.674 2.182 17.146 2.182c1.47 0 2.843.59 3.841 1.636a5.367 5.367 0 011.636 3.818 5.367 5.367 0 01-1.377 3.41L12 21z'
+  },
+  {
+    title: 'Eventos & Galas',
+    description: 'Oratória de excelência para eventos corporativos e galas, onde a vossa marca ou história ganha uma voz única e sofisticada.',
+    icon: 'M19 21v-2a4 4 0 00-4-4H9a4 4 0 00-4 4v2 M12 7a4 4 0 100-8 4 4 0 000 8z'
   }
 ]
 </script>
