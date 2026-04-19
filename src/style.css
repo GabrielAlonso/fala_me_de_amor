@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-light: #7A9A3B;
+  --color-primary: #556D1B;
+  --color-primary-dark: #4A6216;
+  
+  --color-secondary-light: #E5D692;
+  --color-secondary: #C5A028;
+  --color-secondary-dark: #A08220;
+  
+  --color-cream-light: #FFFFFF;
+  --color-cream: #FDFCF8;
+  --color-cream-dark: #F5F2E8;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --animate-fade-in-up: fadeInUp 0.8s ease-out forwards;
+
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+}
+
+:root {
+  font-family: var(--font-sans), system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1a1a1a;
+  background-color: var(--color-cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@utility text-shadow {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
