@@ -1,9 +1,13 @@
+<script setup>
+import heroImage from '../assets/hero_v2.png'
+</script>
+
 <template>
   <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
     <!-- Bright, realistic wedding background -->
     <div 
       class="absolute inset-0 z-0 bg-fixed"
-      style="background-image: url('/src/assets/hero_v2.png'); background-size: cover; background-position: center;"
+      :style="{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
     >
       <div class="absolute inset-0 bg-black/20"></div>
     </div>

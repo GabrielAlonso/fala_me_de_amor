@@ -5,7 +5,7 @@
         
         <div class="relative order-2 lg:order-1">
           <div class="aspect-[4/5] overflow-hidden rounded-sm shadow-2xl relative z-10">
-            <img src="/src/assets/about.png" alt="O Celebrante" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <img src="../assets/about.png" alt="O Celebrante" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
           </div>
           <!-- Decorative Frame -->
           <div class="absolute -top-6 -left-6 w-full h-full border border-secondary/30 rounded-sm -z-0"></div>
